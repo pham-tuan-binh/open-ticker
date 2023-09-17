@@ -16,12 +16,16 @@
   }
 }
 
+.gradient-background {
+  background-color:hsla(0,0%,0%,1);
+background-image:
+radial-gradient(at 100% 94%, hsla(166,7%,7%,1) 0px, transparent 50%),
+radial-gradient(at 63% 57%, hsla(0,7%,0%,1) 0px, transparent 50%),
+radial-gradient(at 43% 27%, hsla(1,7%,0%,1) 0px, transparent 50%),
+radial-gradient(at 8% 90%, hsla(226,7%,9%,1) 0px, transparent 50%),
+radial-gradient(at 94% 7%, hsla(204,7%,24%,1) 0px, transparent 50%),
+radial-gradient(at 43% 94%, hsla(268,7%,11%,1) 0px, transparent 50%);
+}
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 }
