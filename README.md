@@ -6,6 +6,8 @@
 
 The project was initiated by **Binh Pham** when he saw that there was no free tool on the market that made portfolio analysis easy and quick. As a retail trader himself, he made a tool that he would used personally and recommend to others.
 
+**_Skip all the hassle and [go straight to the demo](https://open-ticker.vercel.app/). Why not?_**
+
 ## Why?
 
 > "When I built this, I simply needed a tool to compile all my symbols into a chart, so that my portfolio can be represented as a whole. But nothing do that for free or is very limited.
@@ -40,7 +42,7 @@ The philosophy and logical flow dictates everything the project represents. Howe
 
 - **How can we use the project?**
 
-Currently, the project's interface is statically built and [hosted on this repository](). This is only for demo purposes.
+Currently, the project's interface is statically built and [hosted on Vercel](https://open-ticker.vercel.app/). This is only for demo purposes.
 
 In the future, it will be converted into a micro-service based application with concise services per the logical flow, in which the interface will only be a part of. It will be like [**Home Assistant**](https://www.home-assistant.io/) where users self-host their instance with their own expansion and customization.
 
@@ -56,9 +58,11 @@ This is only the starting point.
 
 ## Demo
 
-A demo of this version can be access at [the repository's Github Page]().
+A demo of this version can be access at [the project's Vercel](https://open-ticker.vercel.app/).
 
 ## Features:
+
+![](./images/Features.png)
 
 This version has the following features:
 
@@ -68,11 +72,6 @@ This version has the following features:
 - Compile portfolio-as-index charts for technical analysis.
 - Compile charts for symbols within your portfolio.
 - Export CSV of compiled charts.
-
-<img src="./images/OpenTicker-1.png" alt= “” height="250px">
-<img src="./images/OpenTicker-2.png" alt= “” height="250px">
-<img src="./images/OpenTicker-3.png" alt= “” height="250px">
-<br/>
 
 ## Known Problems
 
