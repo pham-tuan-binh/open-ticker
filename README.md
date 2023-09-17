@@ -6,6 +6,15 @@
 
 The project was initiated by **Binh Pham** when he saw that there was no free tool on the market that made portfolio analysis easy and quick. As a retail trader himself, he made a tool that he would used personally and recommend to others.
 
+## Why?
+
+> "When I built this, I simply needed a tool to compile all my symbols into a chart, so that my portfolio can be represented as a whole. But nothing do that for free or is very limited.
+> TradingView supports only 10 symbols per chart. And if you want to do the same thing in excel, it is freaking nightmare.
+> So I just build something that compiles the data for me, but it looks pretty cool, why not maintain it in a more stream-lined fashion?" - Binh Pham
+
+> "The primative tool is for beginners in the stock market, for traders with medium-size portfolio who want to identify groups of correlating data in their investment early on.
+> However, the project exhibits a well-defined structure and philosophy for expansion. It is built to be expandable and is expected to have more advanced features very soon" - Binh Pham
+
 ## Philosophy
 
 The project’s development philosophy is based on three main staples:
@@ -24,6 +33,16 @@ From an user standpoint, the logical flow of **OpenTicker** is the following:
 4. **Analyze data**: Compiled Data is then analyzed by the user or other modules in **OpenTicker**
 
 This must be maintained and applied in every version of **OpenTicker**. The clear logical flow is what set **OpenTicker** apart from any other trading aid.
+
+## Project's Vision
+
+The philosophy and logical flow dictates everything the project represents. However, one question remains:
+
+- **How can we use the project?**
+
+Currently, the project's interface is statically built and [hosted on this repository](). This is only for demo purposes.
+
+In the future, it will be converted into a micro-service based application with concise services per the logical flow, in which the interface will only be a part of. It will be like [**Home Assistant**](https://www.home-assistant.io/) where users self-host their instance with their own expansion and customization.
 
 # Version 0.0.1 (Pre-Alpha)
 
