@@ -13,9 +13,21 @@ export default () => {
     <div className="flex flex-col gap-2">
       <h1 className="px-4 text-2xl font-bold">API Token</h1>
       <p className="text-small px-4 mb-6 max-w-2xl text-gray-100">
-        If you are encountering issues with empty charts, that probably means
-        you have encountered the rate limit of Finnhub. In this online demo, you
-        are using the developer's API token, please change your token below.
+        Finnhub recently changed their business model and the OpenTicker author
+        can no longer sustain its public API, which will cost 2000$/month per
+        Finnhub plan. For the public demo, it's advised to create a Finnhub
+        account yourself{" "}
+        <a href="https://finnhub.io/" className="underline">
+          here
+        </a>
+        . I'm sorry for the inconvenience!
+        <br />
+        <br />
+        If you wish to have a private product demo, you can contact the
+        OpenTicker team{" "}
+        <a href="mailto:binhpham@binhph.am" className="underline">
+          here.
+        </a>
       </p>
       <div>
         <Input

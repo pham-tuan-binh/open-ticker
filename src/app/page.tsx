@@ -26,19 +26,14 @@ export default function Home() {
         </a>
         .
         <br />
-        <br />
-        Bear in mind that its developer have only spent 12 hours to create this
-        MVP so most input validation and performance optimization are not in
-        place. Use the tool carefully, don't stress test it, it will definitely
-        break. Thanks for checking out this tool!
       </p>
+      <Divider className="mb-10" />
+      <TokenForm />
       <Divider className="mb-10" />
       <FormsTab />
       <Divider className="mb-10" />
       <PortfolioViewer />
       <ChartsView />
-      <Divider className="mb-10" />
-      <TokenForm />
     </div>
   );
 }
