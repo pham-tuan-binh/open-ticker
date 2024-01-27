@@ -20,7 +20,10 @@ export default function Home() {
         <br />
         This project is still in its very early age, please report bugs and
         errors on{" "}
-        <a href="https://binhph.am" className="underline">
+        <a
+          href="https://github.com/pham-tuan-binh/open-ticker"
+          className="underline"
+        >
           {" "}
           Github
         </a>
